@@ -1,11 +1,11 @@
 # ESGI4-ROOMIES
 
 ## /backend
-symfony server:start
-docker compose up
-php bin/console make:migration
-php bin/console doctrine:migrations:migrate
-php bin/console doctrine:fixtures:load
+symfony server:start  
+docker compose up  
+php bin/console make:migration  
+php bin/console doctrine:migrations:migrate  
+php bin/console doctrine:fixtures:load  
 
 php bin/phpunit tests/Service/GameServiceTest.php
 
@@ -17,8 +17,8 @@ npm run dev
 npx playwright test
 
 
-user@example.com
+user@example.com  
 password123
 
-test@test.fr
+test@test.fr  
 test
