@@ -11,7 +11,7 @@ php bin/phpunit tests/Service/GameServiceTest.php
 
 
 ## /frontend
-npm install
+npm install  
 npx playwright install  
 npm run dev
 
