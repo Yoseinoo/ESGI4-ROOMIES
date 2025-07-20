@@ -75,7 +75,7 @@ const createRoom = async () => {
 //Supprimer une room et la supprime de la liste
 const deleteRoom = async (roomId) => {
     await axios.delete(`https://localhost:8000/rooms/${roomId}`, {
-        data: { email: 'user@example.com' }
+        data: { email: user.value.email }
     })
 
     console.log('Room deleted: ', roomId);
